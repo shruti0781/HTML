@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body><main>
+    <header>
+        <h1>LOGIN PAGE</h1>
+    </header>
+    </main>
+    <form>
+        <label for="first-name">FIRST NAME</label>
+        <input type="text" id="first-name" pattern="[a-zA-Z]+" title="use only a-z or A-Z" placeholder="first name"
+            required>
+        <br>
+        <br>
+        <label for="last-name">LAST NAME</label>
+        <input type="text" id="last-name" pattern="[a-zA-Z]+" title="use only a-z or A-Z" placeholder="last name"
+            required>
+        <br>
+        <br>
+        <label for="age">AGE</label>
+        <input type="number" id="age" placeholder="age" pattern="[18-99]" title="eligibility above 18" required>
+        <br><br><label for="email">EMAIL</label>
+        <input type="email" id="email" placeholder="email"  title="use only a-z or A-Z 0-9" required>
+        <br><br> <label for="password">PASSWORD</label>
+        <input type="password" id="password" placeholder="password" pattern="[0-9]+" title="use numbers only" minlength="8" maxlength="16">
+        <br><br><label for="confirm-password">CONFIRM PASSWORD</label>
+        <input type="password" id="confirm-password" placeholder="confirm password" pattern="[0-9]+"
+            title="use numbers only" minlength="8" maxlength="16" required>
+        <br><br> <label for="phone">PHONE NUMBER</label>
+        <input type="tel" id="phone" placeholder="phone number" pattern="[0-9]{10}" title="length must be 10" required>
+        <br><br>
+        <article>
+            <section> please check all the feilds and ensure that filled data is correct. </section>
+        </article>
+        <br><br> <input type="checkbox" id="agree" required title="please enter correctly"> <label for="agree">I agree to the terms and conditions</label>
+        <br><br><button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+    </form>
+    
+</body>
+
+</html>
